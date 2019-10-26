@@ -204,49 +204,5 @@
         </extensions>
     </build>
 
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.9</version>
-                <reportSets>
-                    <reportSet>
-                        <reports>
-                            <!--<report>cim</report>-->
-                            <report>dependencies</report>
-                            <report>dependency-convergence</report>
-                            <report>dependency-info</report>
-                            <report>dependency-management</report>
-                            <report>distribution-management</report>
-                            <report>index</report>
-                            <report>license</report>
-                            <report>project-team</report>
-                            <report>scm</report>
-                            <report>summary</report>
-                        </reports>
-                    </reportSet>
-                </reportSets>
-            </plugin>
-        </plugins>
-    </reporting>
-
-    <distributionManagement>
-    </distributionManagement>
-
-    <licenses>
-    </licenses>
-    <organization>
-    </organization>
-    <inceptionYear>2018</inceptionYear>
-    <developers>
-        <developer />
-    </developers>
-    <mailingLists>
-        <mailingList />
-    </mailingLists>
-    <scm>
-    </scm>
-
 
 </project>
